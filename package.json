@@ -2,9 +2,9 @@
   "name": "heroku-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --env.development --open --hot",
+    "start": "node app.js",
     "build": "webpack --mode production --env.production"
   },
   "keywords": [],

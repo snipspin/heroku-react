@@ -36,7 +36,7 @@ module.exports = (env) => {
             }),
             new webpack.DefinePlugin({
                 'process.env.development': !!(env && !env.production),}),
-            new ForkTsCheckerWebpackPlugin({eslint: false})
+            // new ForkTsCheckerWebpackPlugin({eslint: false})
         ]
     }
 };
